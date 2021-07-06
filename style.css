@@ -2,6 +2,7 @@ body{
     font-family: 'Rubik', sans-serif;
 margin: 0;
 }
+/* 1st section */
 .nav {
     background-color: rgba(5, 5, 5, 0);
 
@@ -60,16 +61,16 @@ p{
 .half{
     width: 50%;
 }
-
+/* 2nd section */
 #text-1 {
      padding-top:15%;
      padding-left:5%;
 }
 
+/* 3rd section */
 
 #person{
 padding-left: 25%;
-
 
 }
 #text-2 {
@@ -82,12 +83,13 @@ padding-left: 25%;
     background-repeat: no-repeat;
     padding-bottom: 5%;
 }
+/* 4th section */
 .text-3{
     text-align: center;
     line-height: 10px;
 
 }
-.my-recipies{
+.my-recipie{
     display: flex;
     margin: 5%;
 }
@@ -104,9 +106,43 @@ border-radius:20px;
 .content {
     padding-left:8%;
 }
-.part-4{
+/* 5th section */
+.review{
+    display: flex;  
+    margin: 5%;
+    padding-left: 10%;
+    width: 70%;
+    
+}
+#center{
+    text-align: center;
+    color: rgb(250, 6, 6);
+}
+.review-1{
+    box-shadow: rgba(29, 29, 29, 0.562) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin: 5%;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 5%;
+    padding-bottom:3%;
+    border-left: rgb(0, 255, 234) solid 5px;
+    border-right: solid rgb(216, 6, 6) 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: 700;
+}
+.review-1 p{
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    padding-left:5px ;
+    padding-right: 5px;
+}
+/* 6th section */
+.part-5{
      background-color: rgb(6, 255, 130);
      text-align: center;
     margin: 5px;
-     padding-bottom:5%;
+     padding-bottom: 5%;
+     padding-top: 5%;
 }
