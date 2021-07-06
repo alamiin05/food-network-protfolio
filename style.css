@@ -49,7 +49,7 @@ p{
 }
 .link {
     text-decoration: none;
-    background-image:linear-gradient(50deg, rgb(29, 66, 92) 25%, rgb(3, 19, 31) 98%);;
+    background-image:linear-gradient(40deg, rgb(34, 92, 133) 25%, rgb(3, 19, 31) 98%);;
         padding: 20px 35px;
         font-weight: 500;
         color: white;
@@ -81,26 +81,25 @@ padding-left: 25%;
 
     background-image: url(images/7.png);
     background-repeat: no-repeat;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 /* 4th section */
-.text-3{
+.text-3 {
     text-align: center;
-    line-height: 10px;
-
+    line-height: 5px;
 }
 .my-recipie{
     display: flex;
-    margin: 5%;
+    margin:3%;
 }
 .recipie{
     box-shadow: rgba(29, 29, 29, 0.562) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
- width: 35%;
- margin:2%;
+ width:27%;
+ margin:3%;
  border-radius: 20px;
 }
 .recipie img {
-padding:15%;
+padding: 31.5px;
 border-radius:20px;
 }
 .content {
@@ -116,10 +115,11 @@ border-radius:20px;
 }
 #center{
     text-align: center;
-    color: rgb(250, 6, 6);
+    color: rgb(252, 252, 252);
+    background-color: rgb(53, 53, 53);
 }
 .review-1{
-    box-shadow: rgba(29, 29, 29, 0.562) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-shadow: rgba(44, 43, 43, 0.562) 0px 14px 28px, rgba(39, 37, 37, 0.5) 0px 10px 10px;
     margin: 5%;
     text-align: center;
     line-height: 15px;
@@ -141,8 +141,8 @@ border-radius:20px;
 /* 6th section */
 .part-5{
      background-color: rgb(6, 255, 130);
-     text-align: center;
     margin: 5px;
-     padding-bottom: 5%;
-     padding-top: 5%;
+    text-align: center;
+     padding-bottom:3%;
+     padding-top: 3%;
 }
